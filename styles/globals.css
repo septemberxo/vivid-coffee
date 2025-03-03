@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,17 +19,26 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #f5efe6, #e4dcd3); /* Soft coffee gradient */
+  color: #4a2e1a; /* Dark coffee text */
+  font-family: 'IBM Plex Mono', monospace; /* Typewriter font */
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-transform: lowercase;
 }
 
 a {
